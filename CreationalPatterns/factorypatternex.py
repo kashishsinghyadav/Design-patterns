@@ -1,3 +1,4 @@
+# The Factory Pattern is a creational design pattern used in object-oriented programming to create objects without specifying the exact class of object that will be created. Instead, the Factory Pattern defines an interface or abstract class for creating objects, and subclasses or concrete implementations decide which class to instantiate
 from abc import ABC,abstractmethod 
 
 class PaymentGateway(ABC):
