@@ -1,5 +1,5 @@
 
-class Pizza:
+class Pizza:# this is called builder
     def __init__(self,builder):
         self.size=builder.size 
         self.cheese=builder.cheese
